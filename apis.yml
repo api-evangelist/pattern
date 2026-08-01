@@ -1,7 +1,23 @@
 aid: pattern
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pattern.png
 name: Pattern
-description: Pattern is a company surfaced as a portfolio company of uncork-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Pattern was an early-stage team-collaboration startup founded by ex-Googlers and backed by
+  Uncork Capital (SoftTech VC). It was acqui-hired by Workday in August 2017, with the team folded into
+  Workday and its independent product and website discontinued; pattern's former web presence now
+  redirects to workday.com. It is retained in the API Evangelist network as a portfolio-lead record for
+  the Uncork Capital graph, but it exposes no independent developer surface, API, documentation, or
+  specification of its own, so the enrichment pipeline has no provider artifacts to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/pattern/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +25,28 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: workday
+x-acquired-date: '2017-08'
+x-acquired-note: Acqui-hire (team collaboration, founded by ex-Googlers); no independent API surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Acquired
+- Collaboration
+- Workday
+- Uncork Capital
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
