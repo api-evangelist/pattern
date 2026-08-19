@@ -29,7 +29,7 @@ x-status: acquired
 x-acquired-by: workday
 x-acquired-date: '2017-08'
 x-acquired-note: Acqui-hire (team collaboration, founded by ex-Googlers); no independent API surface.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
